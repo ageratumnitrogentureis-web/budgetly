@@ -1,7 +1,6 @@
 from budgetly.cli import main
 
 
-
 def run(tmp_path, *args):
     return main(["--data-file", str(tmp_path / "e.json"), *args])
 
