@@ -1,0 +1,8 @@
+date,amount,category,description
+2026-09-03,45.20,food,Groceries
+2026-09-05,12.00,transport,Bus pass top-up
+2026-09-12,900.00,housing,Rent share
+2026-10-01,60.75,utilities,Electricity
+2026-10-04,15.99,entertainment,Streaming subscription
+2026-10-09,not-a-number,food,Broken row for testing
+2026-10-11,32.40,health,Pharmacy
