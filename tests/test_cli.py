@@ -1,6 +1,7 @@
 from budgetly.cli import main
 
 
+
 def run(tmp_path, *args):
     return main(["--data-file", str(tmp_path / "e.json"), *args])
 
@@ -17,7 +18,7 @@ def test_add_then_list(tmp_path, capsys):
     assert code == 0
     run(tmp_path, "list")
     out = capsys.readouterr().out
-    assert "Lunch" in out
+    assert "Lunches" in out
     assert "Total: 12.50" in out
 
 
